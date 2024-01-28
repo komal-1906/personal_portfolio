@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Komal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/defaee709d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="images/logo.jpg" alt="logo" height="50px" width="150px">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello,</p>
+                <h1>I'm <span>Komal</span></h1><br>
+                <p>and I'm</p>
+                <h1><div>Frontend Developer</div></h1>                
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/pic2.png" height="450px" width="370px" alt="">
+                </div>
+
+                <div class="about-col2">
+                    <br>
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Komal, an aspiring Frontend Developer with a passion for crafting visually appealing and user-friendly websites. While I'm new to the industry, my dedication to learning and creating exceptional user experiences sets me apart. Eager to contribute and collaborate on innovative projects, I bring a fresh perspective and a commitment to turning ideas into reality through code.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('training')" >Trainings</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Development</span><br>Web Frontend Development<br><div> </div>
+                            </li>
+                            <li>
+                                <span>UI/UX</span><br> Designing Web/App interfaces
+                            </li>
+                            <li>
+                                <span>Languages</span><br>C, C++, Python
+                            </li>
+                            <li>
+                                <span>Data Sructures & Algorithms </span> <br>DSA in Python
+                            </li>
+                            <li>
+                                <span>Git/Github</span>
+                            </li>
+                        
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="training">
+                        <ul>
+                            <li>
+                                <span>1st training</span><br> Training description
+                            </li>
+                            <li>
+                                <span>2nd training</span><br>Training description
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2026</span><br> B.Tech CSE from VCE, Rohtak || %age
+                            </li>
+                            <li>
+                                <span>2022</span><br>Diploma (DCAP) from RCIT, Rohtak || 76%
+                            </li>
+                            <li>
+                                <span>2022</span><br> 12th (PCM) from CBSE || 88%
+                            </li>
+                            <li>
+                                <span>2020</span><br> 10th from CBSE || 92%
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i> 
+                    <h2>Web Designing</h2>
+                    <p>Elevate your online presence with captivating web design solutions tailored to your unique needs. I specialize in crafting visually stunning and intuitively functional websites that not only reflect your brand identity but also engage and delight your audience.</p> 
+                    <a href=".myservices" target="_blank">Learn more</a>    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Bring your digital vision to life with cutting-edge frontend web development services that seamlessly blend form and function. I specialize in crafting immersive and responsive user interfaces that enhance the overall user experience.</p> 
+                    <a href=".myservices" target="_blank">Learn more</a>    
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Transform your digital ideas into captivating user experiences with my specialized design services. I blend creativity with user-centric methodologies to craft interfaces that look stunning and provide seamless and delightful interactions.</p> 
+                    <a href=".myservices" target="_blank">Learn more</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</div>
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/w1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Netflix Home Page Clone </h3>
+                        <p>Crafting a pixel-perfect Netflix home page clone to showcase front-end development skills and embodying responsive design.</p>
+                        <a href="https://65a6dd4bdf78f316cb82666e--idyllic-llama-319107.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Amazon Home Page Clone </h3>
+                        <p>"Building a realistic Amazon home page clone, showcasing front-end development skills and attention to e-commerce design details."</p>
+                        <a href="https://65abf9f431747eb8a535962d--lovely-kringle-e934c1.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w3.webp" alt="">
+                    <div class="layer">
+                        <h3>Spotify Clone </h3>
+                        <p>Developing a dynamic Spotify clone, blending seamless user interface with interactive music playback features.</p>
+                        <a href=".spotify" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>    
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> komal1906k@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 9518606778</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/komal-k04" target="_blank"><i class="fa-brands fa-linkedin"></i></a>  
+                        <a href="https://github.com/komal-1906" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100085053113811" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ko.mal__/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+
+                    <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div id="copyright">
+            <p>Copyright &copy; 2024 Komal. All rights reserved. | Designed and developed with <i class="fa-solid fa-heart"></i> by Komal.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
